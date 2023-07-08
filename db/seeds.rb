@@ -6,11 +6,11 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-a1 = Apartment.create(number: 4109)
-a2 = Apartment.create(number: 1107)
-a3 = Apartment.create(number: 2409)
-a4 = Apartment.create(number: 1110)
-a5 = Apartment.create(number: 7103)
+a1 = Apartment.create(name: "Riverside Gardens", number: 4109)
+a2 = Apartment.create(name: "Oakwood Apartments", number: 1107)
+a3 = Apartment.create(name: "Parkview Residences", number: 2409)
+a4 = Apartment.create(name: "Meadowbrook Heights", number: 1110)
+a5 = Apartment.create(name: "Sunset Terrace", number: 7103)
 
 t1 = Tenant.create(name: "Robbin Miller", age: 29)
 t2 = Tenant.create(name: "Justin Cobb", age: 37)
